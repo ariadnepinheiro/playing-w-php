@@ -1,4 +1,5 @@
-/** A função esconde_senha($texto) deve esconder a senha, de tamanho 
+/** 
+ * A função esconde_senha($texto) deve esconder a senha, de tamanho 
  * arbitrário e escrita em claro, em uma string de mesmo tamanho, 
  * mas composta apenas por asteriscos. Para isso, a função DEVE seguir 
  * as seguintes etapas: receber uma string, encontrar por meio de 
