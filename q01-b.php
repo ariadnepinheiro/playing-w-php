@@ -9,7 +9,7 @@
  * abaixo, nas quais o parâmetro $vetorVerticesNovos contém o vetor com os
  * novos vértices, $matriz é a matriz de adjacência atual e $probabilidade 
  * é a mesma probabilidade do item anterior.
-*/
+ */
 
 
 <?php
