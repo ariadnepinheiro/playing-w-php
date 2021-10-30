@@ -1,4 +1,5 @@
-/** Você foi contratado para desenvolver em PHP o sistema de controle de alunos do
+/**
+ * Você foi contratado para desenvolver em PHP o sistema de controle de alunos do
  * CEDERJ. Utilizando o paradigma de orientação a objetos, você mapeou as seguintes
  * classes: Aluno, Disciplina e TurmasDisciplina. A dinâmica é a seguinte: os
  * alunos se inscrevem nas disciplinas e o sistema deve informar quantas turmas serão
@@ -6,6 +7,7 @@
  * depende do número máximo de alunos por turma (nmax). Portanto, se o número de
  * inscrições passar o número máximo de alunos por turma, o sistema deve abrir uma nova
  * turma e assim por diante até que todos os alunos estejam em uma turma.
+ *
  * Os alunos são organizados por turma por ordem de CR (Coeficiente de Rendimento -
  * média ponderada de todas as disciplinas cursadas). Assim, os alunos com os nmax
  * maiores CRs são alocados na primeira turma e assim por diante. Ao final, garante-se 
