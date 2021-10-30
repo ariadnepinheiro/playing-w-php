@@ -1,4 +1,5 @@
-/** Deseja-se desenvolver em PHP uma função para desenvolver grafos cujas arestas
+/** 
+ * Deseja-se desenvolver em PHP uma função para desenvolver grafos cujas arestas
  * entre os vértices possuem uma probabilidade p de existir (grafo conhecido pelo
  * nome de Erdõs-Rényi, G(n,p)), onde n é o número de vértices. Esta função deve 
  * retornar a matriz de adjacências correspondente. Note que a implementação das 
