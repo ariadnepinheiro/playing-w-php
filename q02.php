@@ -5,7 +5,7 @@
  * expressão regular o rótulo "senha:", ignorando espaços intermediários
  * (“senha: ” ou “senha:”), substituir a sequência de caracteres que 
  * aparece em seguida por * e retornar a string produzida.
-*/
+ */
 
 
 <?php
