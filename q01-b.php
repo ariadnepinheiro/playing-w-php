@@ -1,4 +1,5 @@
-/** Deseja-se desenvolver em PHP uma função para atualizar uma matriz de
+/**
+ * Deseja-se desenvolver em PHP uma função para atualizar uma matriz de
  * adjacências, considerando a adição de um novo vetor de vértices. Note 
  * que todas as arestas já representadas na matriz de adjacências devem 
  * ser preservadas. Note também que o novo vetor de vértices pode conter
