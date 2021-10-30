@@ -8,17 +8,18 @@
  * turma e assim por diante até que todos os alunos estejam em uma turma.
  * Os alunos são organizados por turma por ordem de CR (Coeficiente de Rendimento -
  * média ponderada de todas as disciplinas cursadas). Assim, os alunos com os nmax
- * maiores CRs são alocados na primeira turma e assim por diante. Ao final, garante-se que todos os alunos são alocados em uma turma da disciplina. Não há limite máximo para o
+ * maiores CRs são alocados na primeira turma e assim por diante. Ao final, garante-se 
+ * que todos os alunos são alocados em uma turma da disciplina. Não há limite máximo para o
  * número de turmas. A listagem abaixo mostra os atributos das classes, o código usado
  * para instanciar as classes e testar a lógica da programação. Ao final, espera-se que
  * seja exibido na tela o número de turmas e a lista, por turma, de nomes de alunos 
  * e respectivos CRs. Pede-se para apresentar a implementação completa, levando em conta
  * que a listagem abaixo pode omitir alguns métodos e atributos, que devem ser parte 
  * da resposta.
-*/
+ */
+
 
 <?php
-
 	class Aluno {
 		private $nome, $cr;
 		
@@ -111,10 +112,10 @@
 	$aluno1 = new Aluno ("João", 8.5);
 	$aluno2 = new Aluno ("Ana", 9.0);
 	$aluno3 = new Aluno ("Maria", 9.5);
-    $aluno4 = new Aluno ("Anderson", 6.5);
-    $aluno5 = new Aluno ("Valéria", 7.5);
-    $aluno6 = new Aluno ("Camila", 5.0);
-    $aluno7 = new Aluno ("Paulo", 8.0);
+    	$aluno4 = new Aluno ("Anderson", 6.5);
+    	$aluno5 = new Aluno ("Valéria", 7.5);
+   	$aluno6 = new Aluno ("Camila", 5.0);
+    	$aluno7 = new Aluno ("Paulo", 8.0);
 	
 	$disciplina1 = new Disciplina("PAW");
 	
@@ -122,10 +123,10 @@
 	$aluno1->inscreveDisciplina($disciplina1);
 	$aluno2->inscreveDisciplina($disciplina1);
 	$aluno3->inscreveDisciplina($disciplina1);
-    $aluno4->inscreveDisciplina($disciplina1);
-    $aluno5->inscreveDisciplina($disciplina1);
-    $aluno6->inscreveDisciplina($disciplina1);
-    $aluno7->inscreveDisciplina($disciplina1);
+    	$aluno4->inscreveDisciplina($disciplina1);
+   	$aluno5->inscreveDisciplina($disciplina1);
+    	$aluno6->inscreveDisciplina($disciplina1);
+    	$aluno7->inscreveDisciplina($disciplina1);
 	
 	$turmasDisciplina->calculaTurmas($disciplina1);
 	$turmasDisciplina->imprimeTurmas();
