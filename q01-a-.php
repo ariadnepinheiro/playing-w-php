@@ -12,7 +12,7 @@
  * o valor retornado por uma função aleatória for menor que o valor da probabilidade 
  * utilizada. A função aleatória deve retornar valores pertencentes ao mesmo intervalo
  * real de probabilidades, ou seja, entre 0 e 1.
-*/
+ */
 
 
 <?php
